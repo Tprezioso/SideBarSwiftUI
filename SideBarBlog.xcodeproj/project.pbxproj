@@ -11,6 +11,7 @@
 		9FC48889251537D600A32D1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC48888251537D600A32D1F /* ContentView.swift */; };
 		9FC4888B251537D700A32D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4888A251537D700A32D1F /* Assets.xcassets */; };
 		9FC4888E251537D700A32D1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4888D251537D700A32D1F /* Preview Assets.xcassets */; };
+		9FC488972515390700A32D1F /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC488962515390700A32D1F /* Sidebar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9FC4888A251537D700A32D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC4888D251537D700A32D1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FC4888F251537D700A32D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC488962515390700A32D1F /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				9FC48886251537D600A32D1F /* SideBarBlogApp.swift */,
 				9FC48888251537D600A32D1F /* ContentView.swift */,
+				9FC488962515390700A32D1F /* Sidebar.swift */,
 				9FC4888A251537D700A32D1F /* Assets.xcassets */,
 				9FC4888F251537D700A32D1F /* Info.plist */,
 				9FC4888C251537D700A32D1F /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC48889251537D600A32D1F /* ContentView.swift in Sources */,
+				9FC488972515390700A32D1F /* Sidebar.swift in Sources */,
 				9FC48887251537D600A32D1F /* SideBarBlogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
