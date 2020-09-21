@@ -9,7 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Sidebar()
+        NavigationView {
+            Sidebar()
+            List(0 ..< 20) {_ in
+                Text("Book")
+            }
+            .navigationTitle("Book List")
+        }
+        
+        
     }
 }
 
